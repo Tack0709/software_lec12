@@ -1,0 +1,20 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "jbenden.c-cpp-flylint",
+        "mhutchie.git-graph",
+        "ms-ceintl.vscode-language-pack-ja",
+        "ms-python.autopep8",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "ms-python.pylint",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-vscode.cpptools-extension-pack",
+        "tamasfe.even-better-toml",
+        "visualstudioexptteam.vscodeintellicode-completions",
+        "visualstudioexptteam.vscodeintellicode",
+        "vscjava.vscode-java-pack",
+        "xaver.clang-format",
+    ]
+}

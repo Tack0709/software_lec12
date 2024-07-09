@@ -1,0 +1,46 @@
+{
+  "editor.rulers": [80],
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 4,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  //
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  //
+  "python.defaultInterpreterPath": "/usr/local/bin/python",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never"
+    }
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.insertSpaces": true
+  },
+  "java.format.enabled": true,
+  "java.format.onType.enabled": true,
+  "java.format.settings.url": ".vscode/java-formatter.xml",
+  //
+  "c-cpp-flylint.clang.enable": true,
+  "c-cpp-flylint.cppcheck.enable": true,
+  "c-cpp-flylint.lizard.enable": false,
+  "c-cpp-flylint.flawfinder.enable": false,
+  "c-cpp-flylint.flexelint.enable": false,
+  "c-cpp-flylint.run": "onType",
+  "c-cpp-flylint.language": "c",
+  "c-cpp-flylint.standard": ["c11"],
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+    // "editor.defaultFormatter": "ms-vscode.cpptools",
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+    // "editor.defaultFormatter": "ms-vscode.cpptools",
+  }
+}
